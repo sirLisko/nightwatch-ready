@@ -1,0 +1,27 @@
+{
+  "name": "nightwatch-ready",
+  "version": "0.1.0",
+  "description": "Nightwatchjs Ready to go!",
+  "main": "./nightwatch",
+  "scripts": {
+    "test": "./nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirLisko/nightwatch-ready.git"
+  },
+  "keywords": [
+    "nightwatchjs",
+    "tests"
+  ],
+  "author": "Luca Lischetti <sirlisko@gmail.com> (http://sirlisko.com)",
+  "bugs": {
+    "url": "https://github.com/sirLisko/nightwatch-ready/issues"
+  },
+  "homepage": "https://github.com/sirLisko/nightwatch-ready",
+  "dependencies": {
+    "chromedriver": "^2.16.0",
+    "nightwatch": "^0.7.9",
+    "selenium-server": "^2.46.0"
+  }
+}
