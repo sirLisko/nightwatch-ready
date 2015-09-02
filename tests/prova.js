@@ -6,8 +6,8 @@ module.exports = {
 		browser
 			.url('http://www.nightwatchjs.org')
 			.waitForElementVisible('body', 3000, 'page loaded')
-			.waitForElementPresent('#twitter-widget-0', 3000)
-			.click('#twitter-widget-0').pause(3000)
+			.waitForElementPresent('.twitter-share-button', 3000)
+			.click('.twitter-share-button').pause(3000)
 
 			.windowHandles(function(result) {
 				browser.assert.equal(result.value.length, 2, 'there is a second window.');
