@@ -15,6 +15,7 @@
     "tests"
   ],
   "author": "Luca Lischetti <sirlisko@gmail.com> (http://sirlisko.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sirLisko/nightwatch-ready/issues"
   },
@@ -22,6 +23,6 @@
   "dependencies": {
     "chromedriver": "^2.16.0",
     "nightwatch": "^0.7.9",
-    "selenium-server": "^2.47.1"
+    "selenium-server": "2.47.1"
   }
 }
