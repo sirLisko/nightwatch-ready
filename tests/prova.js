@@ -2,8 +2,8 @@ module.exports = {
 
   'follow on twitter': browser => browser
 		.url('http://www.nightwatchjs.org')
-		.waitForElementVisible('body', 3000, 'page loaded')
-		.waitForElementPresent('.twitter-share-button', 3000)
+		.waitForElementVisible('body', 'page loaded')
+		.waitForElementPresent('.twitter-share-button')
 		.click('.twitter-share-button').pause(3000)
 
     .windowHandles(result => {
