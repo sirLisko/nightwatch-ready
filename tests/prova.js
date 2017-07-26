@@ -1,10 +1,10 @@
 module.exports = {
 
   'follow on twitter': browser => browser
-		.url('http://www.nightwatchjs.org')
-		.waitForElementVisible('body', 'page loaded')
-		.waitForElementPresent('.twitter-share-button')
-		.click('.twitter-share-button').pause(3000)
+    .url('http://www.nightwatchjs.org')
+    .waitForElementVisible('body', 'page loaded')
+    .waitForElementPresent('.twitter-share-button')
+    .click('.twitter-share-button').pause(3000)
 
     .windowHandles(result => {
       browser.assert.equal(result.value.length, 2, 'there is a second window.')
@@ -12,8 +12,8 @@ module.exports = {
       browser.switchWindow(handle)
     })
 
-		.assert.urlContains('twitter')
-		.closeWindow()
-		.end()
+    .assert.urlContains('twitter')
+    .closeWindow()
+    .end()
 
 }
