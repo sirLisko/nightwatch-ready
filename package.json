@@ -26,7 +26,7 @@
     "babel-preset-es2015": "^6.24.1",
     "chromedriver": "^2.31.0",
     "nightwatch": "^0.9.16",
-    "selenium-server": "^3.4.0"
+    "selenium-server": "~3.14.0"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
